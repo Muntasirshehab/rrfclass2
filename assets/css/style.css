@@ -1,0 +1,83 @@
+/*base css*/
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+float:left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left:15px;
+}
+.aligncenter {
+    
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus {outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400px;
+    color: #373737;
+}
+body {
+    font-family: 'Khula', sans-serif; font-size: 15px; color: #999; 
+}
+a:hover {text-decoration: none }
+/* css from inspect element*/
+a {
+}
+.mainmenu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.mainmenu li {
+  position: relative;
+  display: inline-block;
+}
+.mainmenu li a {
+  display: block;
+  color: #888;
+  padding: 12px 15px;
+}
+.mainmenu.text-center {
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+  display: inline-block;
+  color: #fff;
+  background: #ef476f;
+  font-size: 14px;
+  padding: 13px 25px;
+  border-radius: 2px;
+  border: none;
+}
+.hero-area {
+    font-weight: 300;
+    padding: 150px 0px;
+    border-bottom: 1px solid #f7f7f7;
+}
+.hero-area h1 {
+  font-size: 40px;
+  font-weight: 440px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+input[type="text"],input[type=textarea],input[type=email],input[type=password],input[type=url],input[type=tel] {
+  border: 1px solid #f0f0f0;
+  padding: 10px 15px;
+}
+.website-checker-form {
+    margin-top: 30px;
+}
+.header-area{
+    padding: 20px 0px;
+}
